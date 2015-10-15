@@ -11,12 +11,12 @@ using PavlovExp.Shared;
 
 namespace PavlovExp
 {
-    public partial class mainForm : Form
+    public partial class MainForm : Form
     {
-        public Experiment currExperiment;
-        public Functions Functions;
+        public Experiment CurrExp;
+        public Functions Functions = new Functions();
 
-        public mainForm()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -44,8 +44,14 @@ namespace PavlovExp
 
                 stimLocationCB.Items.AddRange(coList);
                 stimLocationEvalCB.Items.AddRange(coList);
+
                 yesLocationCB.Items.AddRange(coList);
                 noLocationCB.Items.AddRange(coList);
+
+                // add a Random option for locations of the Yes/No buttons
+                co = new ComboObject(6, "Random");
+                yesLocationCB.Items.Add(co);
+                noLocationCB.Items.Add(co);
 
                 stimLocationCB.SelectedIndex = 0;
                 stimLocationEvalCB.SelectedIndex = 0;
@@ -94,84 +100,109 @@ namespace PavlovExp
 
         private void startExpBtn_Click(object sender, EventArgs e)
         {
-            loadSettings();
+            if (loadSettings())
+            {
+                startExperiment();
+            }
         }
 
-        private void loadSettings()
+        private bool loadSettings()
         {
             try
             {
-                currExperiment = new Experiment();
+                CurrExp = new Experiment();
 
                 // general settings
-                currExperiment.Version = versionTB.Text;
-                currExperiment.Date = dateTB.Text;
-                currExperiment.ParticipantID = participantIDTB.Text;
+                CurrExp.Version = versionTB.Text;
+                CurrExp.Date = dateTB.Text;
+                CurrExp.ParticipantID = participantIDTB.Text;
 
                 // pretraining settings
-                currExperiment.PassCriteria = passCriteriaUD.Value;
-                currExperiment.NumTrainingTrials = (int)trainingTrialsUD.Value;
-                currExperiment.NumYesTrials = (int)yesTrialsUD.Value;
-                currExperiment.NumNoTrials = (int)noTrialsUD.Value;
+                CurrExp.PassCriteria = passCriteriaUD.Value;
+                CurrExp.TrialsPerPair = (int)stimTrialsPerPairPretrainUD.Value;
+                CurrExp.YesTrialsPerPair = (int)yesTrialsPerPairUD.Value;
+                CurrExp.NoTrialsPerPair = (int)noTrialsPerPairUD.Value;
 
                 // training settings
-                currExperiment.TrainingWithinPairDelay = withinPairDelayUD.Value;
-                currExperiment.TrainingBetweenPairDelay = betweenPairDelayUD.Value;
-                currExperiment.TrainingFirstStimDuration = firstStimDurationUD.Value;
-                currExperiment.TrainingSecondStimDuration = secondStimDurationUD.Value;
-                currExperiment.TrainingStimLocation = Functions.GetID(stimLocationCB.SelectedItem);
-                currExperiment.TrainingStimPresentations = (int)stimTrialsPerPairUD.Value;
+                CurrExp.TrainingWithinPairDelay = withinPairDelayUD.Value;
+                CurrExp.TrainingBetweenPairDelay = betweenPairDelayUD.Value;
+                CurrExp.TrainingFirstStimDuration = firstStimDurationUD.Value;
+                CurrExp.TrainingSecondStimDuration = secondStimDurationUD.Value;
+                CurrExp.TrainingStimLocation = Functions.GetID(stimLocationCB.SelectedItem);
+                CurrExp.TrainingStimPresentations = (int)stimTrialsPerPairUD.Value;
                 
                 if (Functions.GetID(simultaneousCB.SelectedItem) == (int)Constants.Options.Yes)
                 {
-                    currExperiment.IsSimultaneous = true;
+                    CurrExp.IsSimultaneous = true;
                 }
                 else
                 {
-                    currExperiment.IsSimultaneous = false;
+                    CurrExp.IsSimultaneous = false;
                 }
 
                 // evaluation settings
-                currExperiment.EvalWithinPairDelay = withinPairDelayEvalUD.Value;
-                currExperiment.EvalBetweenPairDelay = betweenPairDelayEvalUD.Value;
-                currExperiment.EvalFirstStimDuration = firstStimDurationEvalUD.Value;
-                currExperiment.EvalSecondStimDuration = secondStimDurationEvalUD.Value;
-                currExperiment.EvalStimLocation = Functions.GetID(stimLocationEvalCB.SelectedItem);
-                currExperiment.YesLocation = Functions.GetID(yesLocationCB.SelectedItem);
-                currExperiment.NoLocation = Functions.GetID(noLocationCB.SelectedItem);
-                currExperiment.EvalStimPresentations = (int)stimTrialsPerPairEvalUD.Value;
-                currExperiment.EvalTrialOrder = Functions.GetID(evalTrialOrderCB.SelectedItem);
+                CurrExp.EvalWithinPairDelay = withinPairDelayEvalUD.Value;
+                CurrExp.EvalBetweenPairDelay = betweenPairDelayEvalUD.Value;
+                CurrExp.EvalFirstStimDuration = firstStimDurationEvalUD.Value;
+                CurrExp.EvalSecondStimDuration = secondStimDurationEvalUD.Value;
+                CurrExp.EvalStimLocation = Functions.GetID(stimLocationEvalCB.SelectedItem);
+                CurrExp.YesLocation = Functions.GetID(yesLocationCB.SelectedItem);
+                CurrExp.NoLocation = Functions.GetID(noLocationCB.SelectedItem);
+                CurrExp.EvalStimPresentations = (int)stimTrialsPerPairEvalUD.Value;
+                CurrExp.EvalTrialOrder = Functions.GetID(evalTrialOrderCB.SelectedItem);
 
                 if (Functions.GetID(symmetryCB.SelectedItem) == (int)Constants.Options.Yes)
                 {
-                    currExperiment.IsSymmetry = true;
+                    CurrExp.IsSymmetry = true;
                 }
                 else
                 {
-                    currExperiment.IsSymmetry = false;
+                    CurrExp.IsSymmetry = false;
                 }
 
                 if (Functions.GetID(transitivityCB.SelectedItem) == (int)Constants.Options.Yes)
                 {
-                    currExperiment.IsTransitivity = true;
+                    CurrExp.IsTransitivity = true;
                 }
                 else
                 {
-                    currExperiment.IsTransitivity = false;
+                    CurrExp.IsTransitivity = false;
                 }
 
                 if (Functions.GetID(equivalenceCB.SelectedItem) == (int)Constants.Options.Yes)
                 {
-                    currExperiment.IsEquivalence = true;
+                    CurrExp.IsEquivalence = true;
                 }
                 else
                 {
-                    currExperiment.IsEquivalence = false;
+                    CurrExp.IsEquivalence = false;
                 }
+
+                return true;
             }
             catch (Exception e)
             {
                 MessageBox.Show("Error occurred while loading the experiment settings: " + e.Message);
+                return false;
+                throw e;              
+            }
+        }
+
+        private void startExperiment()
+        {
+            MainBoard currBoard;
+
+            try
+            {
+                currBoard = new MainBoard();
+                currBoard.Show();
+                currBoard.CurrExp = CurrExp;
+                currBoard.CurrPhase = (int)Constants.Phases.Pretraining;
+                currBoard.runPreTraining();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error occurred while starting experiment screen: " + e.Message);
                 throw e;
             }
         }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PavlovExp.Shared
+namespace PavlovExp
 {
     public class Experiment
     {
@@ -15,9 +15,9 @@ namespace PavlovExp.Shared
 
         // pretraining variables
         public decimal PassCriteria { get; set; }
-        public int NumTrainingTrials { get; set; }
-        public int NumYesTrials { get; set; }
-        public int NumNoTrials { get; set; }
+        public int TrialsPerPair { get; set; }
+        public int YesTrialsPerPair { get; set; }
+        public int NoTrialsPerPair { get; set; }
 
         // training variables
         public decimal TrainingWithinPairDelay { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace PavlovExp
 {
-    partial class mainForm
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -34,10 +34,10 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.participantIDTB = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.dateTB = new System.Windows.Forms.TextBox();
             this.versionTB = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
@@ -45,9 +45,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.passCriteriaUD = new System.Windows.Forms.NumericUpDown();
-            this.trainingTrialsUD = new System.Windows.Forms.NumericUpDown();
-            this.yesTrialsUD = new System.Windows.Forms.NumericUpDown();
-            this.noTrialsUD = new System.Windows.Forms.NumericUpDown();
+            this.stimTrialsPerPairPretrainUD = new System.Windows.Forms.NumericUpDown();
+            this.yesTrialsPerPairUD = new System.Windows.Forms.NumericUpDown();
+            this.noTrialsPerPairUD = new System.Windows.Forms.NumericUpDown();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label8 = new System.Windows.Forms.Label();
@@ -68,29 +68,29 @@
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.label15 = new System.Windows.Forms.Label();
             this.withinPairDelayEvalUD = new System.Windows.Forms.NumericUpDown();
-            this.firstStimDurationEvalUD = new System.Windows.Forms.NumericUpDown();
-            this.secondStimDurationEvalUD = new System.Windows.Forms.NumericUpDown();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.stimLocationEvalCB = new System.Windows.Forms.ComboBox();
-            this.label16 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.equivalenceCB = new System.Windows.Forms.ComboBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.transitivityCB = new System.Windows.Forms.ComboBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.symmetryCB = new System.Windows.Forms.ComboBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.evalTrialOrderCB = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.yesLocationCB = new System.Windows.Forms.ComboBox();
             this.noLocationCB = new System.Windows.Forms.ComboBox();
             this.stimTrialsPerPairEvalUD = new System.Windows.Forms.NumericUpDown();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.evalTrialOrderCB = new System.Windows.Forms.ComboBox();
-            this.symmetryCB = new System.Windows.Forms.ComboBox();
-            this.transitivityCB = new System.Windows.Forms.ComboBox();
-            this.equivalenceCB = new System.Windows.Forms.ComboBox();
-            this.startExpBtn = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.yesLocationCB = new System.Windows.Forms.ComboBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.stimLocationEvalCB = new System.Windows.Forms.ComboBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.secondStimDurationEvalUD = new System.Windows.Forms.NumericUpDown();
+            this.label17 = new System.Windows.Forms.Label();
+            this.firstStimDurationEvalUD = new System.Windows.Forms.NumericUpDown();
             this.betweenPairLB = new System.Windows.Forms.Label();
             this.betweenPairDelayEvalUD = new System.Windows.Forms.NumericUpDown();
+            this.startExpBtn = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage4.SuspendLayout();
@@ -98,9 +98,9 @@
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.passCriteriaUD)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trainingTrialsUD)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.yesTrialsUD)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.noTrialsUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stimTrialsPerPairPretrainUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yesTrialsPerPairUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.noTrialsPerPairUD)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.withinPairDelayUD)).BeginInit();
@@ -111,9 +111,9 @@
             this.tabPage3.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.withinPairDelayEvalUD)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firstStimDurationEvalUD)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.secondStimDurationEvalUD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stimTrialsPerPairEvalUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.secondStimDurationEvalUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.firstStimDurationEvalUD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.betweenPairDelayEvalUD)).BeginInit();
             this.SuspendLayout();
             // 
@@ -153,7 +153,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(370, 314);
+            this.tabPage4.Size = new System.Drawing.Size(370, 348);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "General";
             // 
@@ -197,6 +197,18 @@
             this.participantIDTB.Size = new System.Drawing.Size(142, 20);
             this.participantIDTB.TabIndex = 1;
             // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(3, 32);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(79, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Date";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // dateTB
             // 
             this.dateTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -225,18 +237,6 @@
             this.label3.Text = "Participant ID";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 32);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Date";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
@@ -244,7 +244,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(370, 314);
+            this.tabPage1.Size = new System.Drawing.Size(370, 348);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Pretraining";
             // 
@@ -258,9 +258,9 @@
             this.tableLayoutPanel3.Controls.Add(this.label6, 0, 2);
             this.tableLayoutPanel3.Controls.Add(this.label7, 0, 3);
             this.tableLayoutPanel3.Controls.Add(this.passCriteriaUD, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.trainingTrialsUD, 1, 1);
-            this.tableLayoutPanel3.Controls.Add(this.yesTrialsUD, 1, 2);
-            this.tableLayoutPanel3.Controls.Add(this.noTrialsUD, 1, 3);
+            this.tableLayoutPanel3.Controls.Add(this.stimTrialsPerPairPretrainUD, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.yesTrialsPerPairUD, 1, 2);
+            this.tableLayoutPanel3.Controls.Add(this.noTrialsPerPairUD, 1, 3);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 6);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 4;
@@ -292,7 +292,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(151, 13);
             this.label5.TabIndex = 0;
-            this.label5.Text = "Number of Training Trials";
+            this.label5.Text = "Stimulus Pair Presentations";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label6
@@ -304,7 +304,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(151, 13);
             this.label6.TabIndex = 0;
-            this.label6.Text = "Number of Testing YES Trials";
+            this.label6.Text = "YES Pair Presentations";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label7
@@ -316,7 +316,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(151, 13);
             this.label7.TabIndex = 0;
-            this.label7.Text = "Number of Testing NO Trials";
+            this.label7.Text = "NO Pair Presentations";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // passCriteriaUD
@@ -340,47 +340,47 @@
             0,
             131072});
             // 
-            // trainingTrialsUD
+            // stimTrialsPerPairPretrainUD
             // 
-            this.trainingTrialsUD.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.stimTrialsPerPairPretrainUD.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.trainingTrialsUD.Location = new System.Drawing.Point(160, 29);
-            this.trainingTrialsUD.Name = "trainingTrialsUD";
-            this.trainingTrialsUD.Size = new System.Drawing.Size(90, 20);
-            this.trainingTrialsUD.TabIndex = 1;
-            this.trainingTrialsUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.trainingTrialsUD.Value = new decimal(new int[] {
-            14,
+            this.stimTrialsPerPairPretrainUD.Location = new System.Drawing.Point(160, 29);
+            this.stimTrialsPerPairPretrainUD.Name = "stimTrialsPerPairPretrainUD";
+            this.stimTrialsPerPairPretrainUD.Size = new System.Drawing.Size(90, 20);
+            this.stimTrialsPerPairPretrainUD.TabIndex = 1;
+            this.stimTrialsPerPairPretrainUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.stimTrialsPerPairPretrainUD.Value = new decimal(new int[] {
+            2,
             0,
             0,
             0});
             // 
-            // yesTrialsUD
+            // yesTrialsPerPairUD
             // 
-            this.yesTrialsUD.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.yesTrialsPerPairUD.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.yesTrialsUD.Location = new System.Drawing.Point(160, 55);
-            this.yesTrialsUD.Name = "yesTrialsUD";
-            this.yesTrialsUD.Size = new System.Drawing.Size(90, 20);
-            this.yesTrialsUD.TabIndex = 1;
-            this.yesTrialsUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.yesTrialsUD.Value = new decimal(new int[] {
-            14,
+            this.yesTrialsPerPairUD.Location = new System.Drawing.Point(160, 55);
+            this.yesTrialsPerPairUD.Name = "yesTrialsPerPairUD";
+            this.yesTrialsPerPairUD.Size = new System.Drawing.Size(90, 20);
+            this.yesTrialsPerPairUD.TabIndex = 1;
+            this.yesTrialsPerPairUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.yesTrialsPerPairUD.Value = new decimal(new int[] {
+            2,
             0,
             0,
             0});
             // 
-            // noTrialsUD
+            // noTrialsPerPairUD
             // 
-            this.noTrialsUD.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.noTrialsPerPairUD.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.noTrialsUD.Location = new System.Drawing.Point(160, 81);
-            this.noTrialsUD.Name = "noTrialsUD";
-            this.noTrialsUD.Size = new System.Drawing.Size(90, 20);
-            this.noTrialsUD.TabIndex = 1;
-            this.noTrialsUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.noTrialsUD.Value = new decimal(new int[] {
-            14,
+            this.noTrialsPerPairUD.Location = new System.Drawing.Point(160, 81);
+            this.noTrialsPerPairUD.Name = "noTrialsPerPairUD";
+            this.noTrialsPerPairUD.Size = new System.Drawing.Size(90, 20);
+            this.noTrialsPerPairUD.TabIndex = 1;
+            this.noTrialsPerPairUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.noTrialsPerPairUD.Value = new decimal(new int[] {
+            2,
             0,
             0,
             0});
@@ -392,7 +392,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(370, 314);
+            this.tabPage2.Size = new System.Drawing.Size(370, 348);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Training";
             // 
@@ -721,26 +721,191 @@
             0,
             131072});
             // 
-            // firstStimDurationEvalUD
+            // label25
             // 
-            this.firstStimDurationEvalUD.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.label25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(3, 294);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(138, 13);
+            this.label25.TabIndex = 0;
+            this.label25.Text = "Equivalence Test";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // equivalenceCB
+            // 
+            this.equivalenceCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.equivalenceCB.FormattingEnabled = true;
+            this.equivalenceCB.Location = new System.Drawing.Point(147, 289);
+            this.equivalenceCB.Name = "equivalenceCB";
+            this.equivalenceCB.Size = new System.Drawing.Size(90, 21);
+            this.equivalenceCB.TabIndex = 2;
+            // 
+            // label24
+            // 
+            this.label24.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(3, 266);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(138, 13);
+            this.label24.TabIndex = 0;
+            this.label24.Text = "Transitivity Test";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // transitivityCB
+            // 
+            this.transitivityCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.transitivityCB.FormattingEnabled = true;
+            this.transitivityCB.Location = new System.Drawing.Point(147, 263);
+            this.transitivityCB.Name = "transitivityCB";
+            this.transitivityCB.Size = new System.Drawing.Size(90, 21);
+            this.transitivityCB.TabIndex = 2;
+            // 
+            // label23
+            // 
+            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(3, 240);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(138, 13);
+            this.label23.TabIndex = 0;
+            this.label23.Text = "Symmetry Test";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // symmetryCB
+            // 
+            this.symmetryCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.symmetryCB.FormattingEnabled = true;
+            this.symmetryCB.Location = new System.Drawing.Point(147, 237);
+            this.symmetryCB.Name = "symmetryCB";
+            this.symmetryCB.Size = new System.Drawing.Size(90, 21);
+            this.symmetryCB.TabIndex = 2;
+            // 
+            // label22
+            // 
+            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(3, 214);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(138, 13);
+            this.label22.TabIndex = 0;
+            this.label22.Text = "Evaluation Trial Order";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // evalTrialOrderCB
+            // 
+            this.evalTrialOrderCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.evalTrialOrderCB.FormattingEnabled = true;
+            this.evalTrialOrderCB.Location = new System.Drawing.Point(147, 211);
+            this.evalTrialOrderCB.Name = "evalTrialOrderCB";
+            this.evalTrialOrderCB.Size = new System.Drawing.Size(90, 21);
+            this.evalTrialOrderCB.TabIndex = 2;
+            // 
+            // label21
+            // 
+            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(3, 188);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(138, 13);
+            this.label21.TabIndex = 0;
+            this.label21.Text = "Stimulus Pair Presentations";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label20
+            // 
+            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(3, 162);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(138, 13);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "NO Button Location";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // noLocationCB
+            // 
+            this.noLocationCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.noLocationCB.FormattingEnabled = true;
+            this.noLocationCB.Location = new System.Drawing.Point(147, 159);
+            this.noLocationCB.Name = "noLocationCB";
+            this.noLocationCB.Size = new System.Drawing.Size(90, 21);
+            this.noLocationCB.TabIndex = 2;
+            // 
+            // stimTrialsPerPairEvalUD
+            // 
+            this.stimTrialsPerPairEvalUD.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.firstStimDurationEvalUD.DecimalPlaces = 2;
-            this.firstStimDurationEvalUD.Increment = new decimal(new int[] {
-            1,
+            this.stimTrialsPerPairEvalUD.Location = new System.Drawing.Point(147, 185);
+            this.stimTrialsPerPairEvalUD.Name = "stimTrialsPerPairEvalUD";
+            this.stimTrialsPerPairEvalUD.Size = new System.Drawing.Size(90, 20);
+            this.stimTrialsPerPairEvalUD.TabIndex = 1;
+            this.stimTrialsPerPairEvalUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.stimTrialsPerPairEvalUD.Value = new decimal(new int[] {
+            4,
             0,
             0,
-            65536});
-            this.firstStimDurationEvalUD.Location = new System.Drawing.Point(147, 55);
-            this.firstStimDurationEvalUD.Name = "firstStimDurationEvalUD";
-            this.firstStimDurationEvalUD.Size = new System.Drawing.Size(90, 20);
-            this.firstStimDurationEvalUD.TabIndex = 1;
-            this.firstStimDurationEvalUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.firstStimDurationEvalUD.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            131072});
+            0});
+            // 
+            // label16
+            // 
+            this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(3, 136);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(138, 13);
+            this.label16.TabIndex = 0;
+            this.label16.Text = "YES Button Location";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // yesLocationCB
+            // 
+            this.yesLocationCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.yesLocationCB.FormattingEnabled = true;
+            this.yesLocationCB.Location = new System.Drawing.Point(147, 133);
+            this.yesLocationCB.Name = "yesLocationCB";
+            this.yesLocationCB.Size = new System.Drawing.Size(90, 21);
+            this.yesLocationCB.TabIndex = 2;
+            // 
+            // label19
+            // 
+            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(3, 110);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(138, 13);
+            this.label19.TabIndex = 0;
+            this.label19.Text = "Stimuli Location";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // stimLocationEvalCB
+            // 
+            this.stimLocationEvalCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.stimLocationEvalCB.FormattingEnabled = true;
+            this.stimLocationEvalCB.Location = new System.Drawing.Point(147, 107);
+            this.stimLocationEvalCB.Name = "stimLocationEvalCB";
+            this.stimLocationEvalCB.Size = new System.Drawing.Size(90, 21);
+            this.stimLocationEvalCB.TabIndex = 2;
+            // 
+            // label18
+            // 
+            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(3, 84);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(138, 13);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "Second Stimulus Duration";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // secondStimDurationEvalUD
             // 
@@ -775,202 +940,26 @@
             this.label17.Text = "First Stimulus Duration";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label18
+            // firstStimDurationEvalUD
             // 
-            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(3, 84);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(138, 13);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "Second Stimulus Duration";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label19
-            // 
-            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(3, 110);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(138, 13);
-            this.label19.TabIndex = 0;
-            this.label19.Text = "Stimuli Location";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // stimLocationEvalCB
-            // 
-            this.stimLocationEvalCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.stimLocationEvalCB.FormattingEnabled = true;
-            this.stimLocationEvalCB.Location = new System.Drawing.Point(147, 107);
-            this.stimLocationEvalCB.Name = "stimLocationEvalCB";
-            this.stimLocationEvalCB.Size = new System.Drawing.Size(90, 21);
-            this.stimLocationEvalCB.TabIndex = 2;
-            // 
-            // label16
-            // 
-            this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(3, 136);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(138, 13);
-            this.label16.TabIndex = 0;
-            this.label16.Text = "YES Button Location";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label20
-            // 
-            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(3, 162);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(138, 13);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "NO Button Location";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // yesLocationCB
-            // 
-            this.yesLocationCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.yesLocationCB.FormattingEnabled = true;
-            this.yesLocationCB.Location = new System.Drawing.Point(147, 133);
-            this.yesLocationCB.Name = "yesLocationCB";
-            this.yesLocationCB.Size = new System.Drawing.Size(90, 21);
-            this.yesLocationCB.TabIndex = 2;
-            // 
-            // noLocationCB
-            // 
-            this.noLocationCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.noLocationCB.FormattingEnabled = true;
-            this.noLocationCB.Location = new System.Drawing.Point(147, 159);
-            this.noLocationCB.Name = "noLocationCB";
-            this.noLocationCB.Size = new System.Drawing.Size(90, 21);
-            this.noLocationCB.TabIndex = 2;
-            // 
-            // stimTrialsPerPairEvalUD
-            // 
-            this.stimTrialsPerPairEvalUD.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.firstStimDurationEvalUD.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.stimTrialsPerPairEvalUD.Location = new System.Drawing.Point(147, 185);
-            this.stimTrialsPerPairEvalUD.Name = "stimTrialsPerPairEvalUD";
-            this.stimTrialsPerPairEvalUD.Size = new System.Drawing.Size(90, 20);
-            this.stimTrialsPerPairEvalUD.TabIndex = 1;
-            this.stimTrialsPerPairEvalUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.stimTrialsPerPairEvalUD.Value = new decimal(new int[] {
-            4,
+            this.firstStimDurationEvalUD.DecimalPlaces = 2;
+            this.firstStimDurationEvalUD.Increment = new decimal(new int[] {
+            1,
             0,
             0,
-            0});
-            // 
-            // label21
-            // 
-            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(3, 188);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(138, 13);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "Stimulus Pair Presentations";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label22
-            // 
-            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(3, 214);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(138, 13);
-            this.label22.TabIndex = 0;
-            this.label22.Text = "Evaluation Trial Order";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label23
-            // 
-            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(3, 240);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(138, 13);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "Symmetry Test";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label24
-            // 
-            this.label24.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(3, 266);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(138, 13);
-            this.label24.TabIndex = 0;
-            this.label24.Text = "Transitivity Test";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label25
-            // 
-            this.label25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(3, 294);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(138, 13);
-            this.label25.TabIndex = 0;
-            this.label25.Text = "Equivalence Test";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // evalTrialOrderCB
-            // 
-            this.evalTrialOrderCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.evalTrialOrderCB.FormattingEnabled = true;
-            this.evalTrialOrderCB.Location = new System.Drawing.Point(147, 211);
-            this.evalTrialOrderCB.Name = "evalTrialOrderCB";
-            this.evalTrialOrderCB.Size = new System.Drawing.Size(90, 21);
-            this.evalTrialOrderCB.TabIndex = 2;
-            // 
-            // symmetryCB
-            // 
-            this.symmetryCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.symmetryCB.FormattingEnabled = true;
-            this.symmetryCB.Location = new System.Drawing.Point(147, 237);
-            this.symmetryCB.Name = "symmetryCB";
-            this.symmetryCB.Size = new System.Drawing.Size(90, 21);
-            this.symmetryCB.TabIndex = 2;
-            // 
-            // transitivityCB
-            // 
-            this.transitivityCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.transitivityCB.FormattingEnabled = true;
-            this.transitivityCB.Location = new System.Drawing.Point(147, 263);
-            this.transitivityCB.Name = "transitivityCB";
-            this.transitivityCB.Size = new System.Drawing.Size(90, 21);
-            this.transitivityCB.TabIndex = 2;
-            // 
-            // equivalenceCB
-            // 
-            this.equivalenceCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.equivalenceCB.FormattingEnabled = true;
-            this.equivalenceCB.Location = new System.Drawing.Point(147, 289);
-            this.equivalenceCB.Name = "equivalenceCB";
-            this.equivalenceCB.Size = new System.Drawing.Size(90, 21);
-            this.equivalenceCB.TabIndex = 2;
-            // 
-            // startExpBtn
-            // 
-            this.startExpBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.startExpBtn.Location = new System.Drawing.Point(154, 389);
-            this.startExpBtn.Name = "startExpBtn";
-            this.startExpBtn.Size = new System.Drawing.Size(75, 32);
-            this.startExpBtn.TabIndex = 1;
-            this.startExpBtn.Text = "Start";
-            this.startExpBtn.UseVisualStyleBackColor = true;
-            this.startExpBtn.Click += new System.EventHandler(this.startExpBtn_Click);
+            65536});
+            this.firstStimDurationEvalUD.Location = new System.Drawing.Point(147, 55);
+            this.firstStimDurationEvalUD.Name = "firstStimDurationEvalUD";
+            this.firstStimDurationEvalUD.Size = new System.Drawing.Size(90, 20);
+            this.firstStimDurationEvalUD.TabIndex = 1;
+            this.firstStimDurationEvalUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.firstStimDurationEvalUD.Value = new decimal(new int[] {
+            100,
+            0,
+            0,
+            131072});
             // 
             // betweenPairLB
             // 
@@ -1005,13 +994,24 @@
             0,
             131072});
             // 
-            // mainForm
+            // startExpBtn
+            // 
+            this.startExpBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.startExpBtn.Location = new System.Drawing.Point(154, 389);
+            this.startExpBtn.Name = "startExpBtn";
+            this.startExpBtn.Size = new System.Drawing.Size(75, 32);
+            this.startExpBtn.TabIndex = 1;
+            this.startExpBtn.Text = "Start";
+            this.startExpBtn.UseVisualStyleBackColor = true;
+            this.startExpBtn.Click += new System.EventHandler(this.startExpBtn_Click);
+            // 
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 431);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "mainForm";
+            this.Name = "MainForm";
             this.Text = "Pavlov Experiment";
             this.Load += new System.EventHandler(this.mainForm_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -1023,9 +1023,9 @@
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.passCriteriaUD)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trainingTrialsUD)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.yesTrialsUD)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.noTrialsUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stimTrialsPerPairPretrainUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yesTrialsPerPairUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.noTrialsPerPairUD)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
@@ -1038,9 +1038,9 @@
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.withinPairDelayEvalUD)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firstStimDurationEvalUD)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.secondStimDurationEvalUD)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stimTrialsPerPairEvalUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.secondStimDurationEvalUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.firstStimDurationEvalUD)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.betweenPairDelayEvalUD)).EndInit();
             this.ResumeLayout(false);
 
@@ -1065,9 +1065,9 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.NumericUpDown passCriteriaUD;
-        private System.Windows.Forms.NumericUpDown trainingTrialsUD;
-        private System.Windows.Forms.NumericUpDown yesTrialsUD;
-        private System.Windows.Forms.NumericUpDown noTrialsUD;
+        private System.Windows.Forms.NumericUpDown stimTrialsPerPairPretrainUD;
+        private System.Windows.Forms.NumericUpDown yesTrialsPerPairUD;
+        private System.Windows.Forms.NumericUpDown noTrialsPerPairUD;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Label label8;
