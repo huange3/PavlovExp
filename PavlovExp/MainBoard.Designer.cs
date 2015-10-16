@@ -44,6 +44,9 @@
             this.secondStimTimer = new System.Windows.Forms.Timer(this.components);
             this.withinPairTimer = new System.Windows.Forms.Timer(this.components);
             this.betweenPairTimer = new System.Windows.Forms.Timer(this.components);
+            this.correctLB = new System.Windows.Forms.Label();
+            this.incorrectLB = new System.Windows.Forms.Label();
+            this.rewardTimer = new System.Windows.Forms.Timer(this.components);
             this.mainPanel.SuspendLayout();
             this.introPanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -53,7 +56,6 @@
             // mainPanel
             // 
             this.mainPanel.BackColor = System.Drawing.Color.White;
-            this.mainPanel.Controls.Add(this.introPanel);
             this.mainPanel.Controls.Add(this.controlPanel);
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPanel.Location = new System.Drawing.Point(0, 0);
@@ -109,8 +111,11 @@
             // controlPanel
             // 
             this.controlPanel.BackColor = System.Drawing.Color.Transparent;
+            this.controlPanel.Controls.Add(this.introPanel);
             this.controlPanel.Controls.Add(this.labelA);
             this.controlPanel.Controls.Add(this.noBtn);
+            this.controlPanel.Controls.Add(this.incorrectLB);
+            this.controlPanel.Controls.Add(this.correctLB);
             this.controlPanel.Controls.Add(this.labelB);
             this.controlPanel.Controls.Add(this.yesBtn);
             this.controlPanel.Controls.Add(this.nextBtn);
@@ -129,6 +134,7 @@
             this.labelA.Size = new System.Drawing.Size(252, 55);
             this.labelA.TabIndex = 0;
             this.labelA.Text = "Stimulus A";
+            this.labelA.Visible = false;
             // 
             // noBtn
             // 
@@ -140,6 +146,8 @@
             this.noBtn.TabIndex = 1;
             this.noBtn.Text = "NO";
             this.noBtn.UseVisualStyleBackColor = false;
+            this.noBtn.Visible = false;
+            this.noBtn.Click += new System.EventHandler(this.noBtn_Click);
             // 
             // labelB
             // 
@@ -150,6 +158,7 @@
             this.labelB.Size = new System.Drawing.Size(252, 55);
             this.labelB.TabIndex = 0;
             this.labelB.Text = "Stimulus B";
+            this.labelB.Visible = false;
             // 
             // yesBtn
             // 
@@ -161,6 +170,8 @@
             this.yesBtn.TabIndex = 1;
             this.yesBtn.Text = "YES";
             this.yesBtn.UseVisualStyleBackColor = false;
+            this.yesBtn.Visible = false;
+            this.yesBtn.Click += new System.EventHandler(this.yesBtn_Click);
             // 
             // nextBtn
             // 
@@ -172,6 +183,7 @@
             this.nextBtn.TabIndex = 1;
             this.nextBtn.Text = "Present the Next Pair";
             this.nextBtn.UseVisualStyleBackColor = false;
+            this.nextBtn.Visible = false;
             this.nextBtn.Click += new System.EventHandler(this.nextBtn_Click);
             // 
             // firstStimTimer
@@ -189,6 +201,35 @@
             // betweenPairTimer
             // 
             this.betweenPairTimer.Tick += new System.EventHandler(this.betweenPairTimer_Tick);
+            // 
+            // correctLB
+            // 
+            this.correctLB.AutoSize = true;
+            this.correctLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.correctLB.ForeColor = System.Drawing.Color.Green;
+            this.correctLB.Location = new System.Drawing.Point(272, 9);
+            this.correctLB.Name = "correctLB";
+            this.correctLB.Size = new System.Drawing.Size(262, 55);
+            this.correctLB.TabIndex = 0;
+            this.correctLB.Text = "CORRECT";
+            this.correctLB.Visible = false;
+            // 
+            // incorrectLB
+            // 
+            this.incorrectLB.AutoSize = true;
+            this.incorrectLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.incorrectLB.ForeColor = System.Drawing.Color.Red;
+            this.incorrectLB.Location = new System.Drawing.Point(272, 76);
+            this.incorrectLB.Name = "incorrectLB";
+            this.incorrectLB.Size = new System.Drawing.Size(310, 55);
+            this.incorrectLB.TabIndex = 0;
+            this.incorrectLB.Text = "INCORRECT";
+            this.incorrectLB.Visible = false;
+            // 
+            // rewardTimer
+            // 
+            this.rewardTimer.Interval = 2000;
+            this.rewardTimer.Tick += new System.EventHandler(this.rewardTimer_Tick);
             // 
             // MainBoard
             // 
@@ -229,5 +270,8 @@
         private System.Windows.Forms.Label introLB;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button startBtn;
+        private System.Windows.Forms.Label incorrectLB;
+        private System.Windows.Forms.Label correctLB;
+        private System.Windows.Forms.Timer rewardTimer;
     }
 }

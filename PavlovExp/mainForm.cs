@@ -197,8 +197,8 @@ namespace PavlovExp
                 currBoard = new MainBoard();
                 currBoard.Show();
                 currBoard.CurrExp = CurrExp;
-                currBoard.CurrPhase = (int)Constants.Phases.Pretraining;
                 currBoard.runPreTraining();
+                //currBoard.runPreTrainingEval();
             }
             catch (Exception e)
             {

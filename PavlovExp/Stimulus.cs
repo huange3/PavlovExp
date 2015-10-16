@@ -10,9 +10,9 @@ namespace PavlovExp
     {
         public string A { get; set; }
         public string B { get; set; }
-        public string Type { get; set; }
+        public int Type { get; set; }
 
-        public Stimulus(string a, string b, string type)
+        public Stimulus(string a, string b, int type)
         {
             this.A = a;
             this.B = b;

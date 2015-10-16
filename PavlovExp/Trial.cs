@@ -11,7 +11,7 @@ namespace PavlovExp
         public int Phase { get; set; }
         public Stimulus StimPair {get; set;}
         public decimal Latency { get; set; }
-        public string UserAnswer { get; set; }
+        public int UserAnswer { get; set; }
         public int IsCorrect { get; set; }
 
         public Trial(int p)
