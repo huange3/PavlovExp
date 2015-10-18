@@ -62,8 +62,8 @@ namespace PavlovExp
         private void MainBoard_Load(object sender, EventArgs e)
         {
             // make this fullscreen
-            //this.TopMost = true;
-            //this.FormBorderStyle = FormBorderStyle.None;
+            this.TopMost = true;
+            this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
 
             correctLB.Location = new Point(Center.X - correctLB.Width / 2, Center.Y);
