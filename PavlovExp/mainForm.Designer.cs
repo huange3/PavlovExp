@@ -42,6 +42,19 @@
             this.yesTrialsPerPairUD = new System.Windows.Forms.NumericUpDown();
             this.noTrialsPerPairUD = new System.Windows.Forms.NumericUpDown();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.stimLocation1CB = new System.Windows.Forms.ComboBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.stimLocation2CB = new System.Windows.Forms.ComboBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.stimLocation3CB = new System.Windows.Forms.ComboBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.stimLocation4CB = new System.Windows.Forms.ComboBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.stimLocation5CB = new System.Windows.Forms.ComboBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.stimLocation6CB = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -55,15 +68,37 @@
             this.stimTrialsPerPairUD = new System.Windows.Forms.NumericUpDown();
             this.label14 = new System.Windows.Forms.Label();
             this.simultaneousCB = new System.Windows.Forms.ComboBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.stimLocation1CB = new System.Windows.Forms.ComboBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.stimLocation2CB = new System.Windows.Forms.ComboBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+            this.label39 = new System.Windows.Forms.Label();
+            this.equivLocation1CB = new System.Windows.Forms.ComboBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.equivLocation2CB = new System.Windows.Forms.ComboBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.equivLocation3CB = new System.Windows.Forms.ComboBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.transLocation1CB = new System.Windows.Forms.ComboBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.transLocation2CB = new System.Windows.Forms.ComboBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.transLocation3CB = new System.Windows.Forms.ComboBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
+            this.label31 = new System.Windows.Forms.Label();
+            this.symLocation1CB = new System.Windows.Forms.ComboBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.symLocation2CB = new System.Windows.Forms.ComboBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.symLocation3CB = new System.Windows.Forms.ComboBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.symLocation4CB = new System.Windows.Forms.ComboBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.symLocation5CB = new System.Windows.Forms.ComboBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.symLocation6CB = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.label15 = new System.Windows.Forms.Label();
             this.withinPairDelayEvalUD = new System.Windows.Forms.NumericUpDown();
@@ -79,7 +114,6 @@
             this.label20 = new System.Windows.Forms.Label();
             this.noLocationCB = new System.Windows.Forms.ComboBox();
             this.stimTrialsPerPairEvalUD = new System.Windows.Forms.NumericUpDown();
-            this.label16 = new System.Windows.Forms.Label();
             this.yesLocationCB = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
             this.secondStimDurationEvalUD = new System.Windows.Forms.NumericUpDown();
@@ -87,42 +121,8 @@
             this.firstStimDurationEvalUD = new System.Windows.Forms.NumericUpDown();
             this.betweenPairLB = new System.Windows.Forms.Label();
             this.betweenPairDelayEvalUD = new System.Windows.Forms.NumericUpDown();
-            this.startExpBtn = new System.Windows.Forms.Button();
-            this.stimLocation3CB = new System.Windows.Forms.ComboBox();
-            this.stimLocation4CB = new System.Windows.Forms.ComboBox();
-            this.stimLocation5CB = new System.Windows.Forms.ComboBox();
-            this.stimLocation6CB = new System.Windows.Forms.ComboBox();
-            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
-            this.label31 = new System.Windows.Forms.Label();
-            this.symLocation1CB = new System.Windows.Forms.ComboBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.symLocation2CB = new System.Windows.Forms.ComboBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.symLocation3CB = new System.Windows.Forms.ComboBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.symLocation4CB = new System.Windows.Forms.ComboBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.symLocation5CB = new System.Windows.Forms.ComboBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.symLocation6CB = new System.Windows.Forms.ComboBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.transLocation1CB = new System.Windows.Forms.ComboBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.transLocation2CB = new System.Windows.Forms.ComboBox();
-            this.label38 = new System.Windows.Forms.Label();
-            this.transLocation3CB = new System.Windows.Forms.ComboBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.label39 = new System.Windows.Forms.Label();
-            this.equivLocation1CB = new System.Windows.Forms.ComboBox();
-            this.label40 = new System.Windows.Forms.Label();
-            this.equivLocation2CB = new System.Windows.Forms.ComboBox();
-            this.label41 = new System.Windows.Forms.Label();
-            this.equivLocation3CB = new System.Windows.Forms.ComboBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.participantIDTB = new System.Windows.Forms.TextBox();
@@ -130,7 +130,7 @@
             this.dateTB = new System.Windows.Forms.TextBox();
             this.versionTB = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.startExpBtn = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -140,6 +140,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.yesTrialsPerPairUD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.noTrialsPerPairUD)).BeginInit();
             this.tabPage2.SuspendLayout();
+            this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.withinPairDelayUD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.betweenPairDelayUD)).BeginInit();
@@ -147,21 +148,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.secondStimDurationUD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stimTrialsPerPairUD)).BeginInit();
             this.tabPage3.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.tableLayoutPanel9.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.tableLayoutPanel8.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.tableLayoutPanel7.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.withinPairDelayEvalUD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stimTrialsPerPairEvalUD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.secondStimDurationEvalUD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.firstStimDurationEvalUD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.betweenPairDelayEvalUD)).BeginInit();
-            this.tableLayoutPanel6.SuspendLayout();
-            this.tableLayoutPanel7.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.tableLayoutPanel8.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.tableLayoutPanel9.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -186,10 +186,12 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.ItemSize = new System.Drawing.Size(96, 26);
             this.tabControl1.Location = new System.Drawing.Point(3, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(508, 358);
+            this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -197,10 +199,10 @@
             this.tabPage1.AutoScroll = true;
             this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage1.Controls.Add(this.tableLayoutPanel3);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 30);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(500, 332);
+            this.tabPage1.Size = new System.Drawing.Size(500, 324);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Pretraining";
             // 
@@ -353,6 +355,173 @@
             this.tabPage2.Size = new System.Drawing.Size(500, 332);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Training";
+            // 
+            // tableLayoutPanel6
+            // 
+            this.tableLayoutPanel6.ColumnCount = 2;
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.56757F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.43243F));
+            this.tableLayoutPanel6.Controls.Add(this.label12, 0, 0);
+            this.tableLayoutPanel6.Controls.Add(this.stimLocation1CB, 1, 0);
+            this.tableLayoutPanel6.Controls.Add(this.label26, 0, 1);
+            this.tableLayoutPanel6.Controls.Add(this.stimLocation2CB, 1, 1);
+            this.tableLayoutPanel6.Controls.Add(this.label27, 0, 2);
+            this.tableLayoutPanel6.Controls.Add(this.stimLocation3CB, 1, 2);
+            this.tableLayoutPanel6.Controls.Add(this.label28, 0, 3);
+            this.tableLayoutPanel6.Controls.Add(this.stimLocation4CB, 1, 3);
+            this.tableLayoutPanel6.Controls.Add(this.label29, 0, 4);
+            this.tableLayoutPanel6.Controls.Add(this.stimLocation5CB, 1, 4);
+            this.tableLayoutPanel6.Controls.Add(this.label30, 0, 5);
+            this.tableLayoutPanel6.Controls.Add(this.stimLocation6CB, 1, 5);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(264, 6);
+            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
+            this.tableLayoutPanel6.RowCount = 6;
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(185, 158);
+            this.tableLayoutPanel6.TabIndex = 2;
+            // 
+            // label12
+            // 
+            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(3, 6);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(82, 13);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "Pair 1 Location";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // stimLocation1CB
+            // 
+            this.stimLocation1CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.stimLocation1CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.stimLocation1CB.FormattingEnabled = true;
+            this.stimLocation1CB.Location = new System.Drawing.Point(91, 3);
+            this.stimLocation1CB.Name = "stimLocation1CB";
+            this.stimLocation1CB.Size = new System.Drawing.Size(91, 21);
+            this.stimLocation1CB.TabIndex = 2;
+            // 
+            // label26
+            // 
+            this.label26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(3, 32);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(82, 13);
+            this.label26.TabIndex = 0;
+            this.label26.Text = "Pair 2 Location";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // stimLocation2CB
+            // 
+            this.stimLocation2CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.stimLocation2CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.stimLocation2CB.FormattingEnabled = true;
+            this.stimLocation2CB.Location = new System.Drawing.Point(91, 29);
+            this.stimLocation2CB.Name = "stimLocation2CB";
+            this.stimLocation2CB.Size = new System.Drawing.Size(91, 21);
+            this.stimLocation2CB.TabIndex = 2;
+            // 
+            // label27
+            // 
+            this.label27.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(3, 58);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(82, 13);
+            this.label27.TabIndex = 0;
+            this.label27.Text = "Pair 3 Location";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // stimLocation3CB
+            // 
+            this.stimLocation3CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.stimLocation3CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.stimLocation3CB.FormattingEnabled = true;
+            this.stimLocation3CB.Location = new System.Drawing.Point(91, 55);
+            this.stimLocation3CB.Name = "stimLocation3CB";
+            this.stimLocation3CB.Size = new System.Drawing.Size(91, 21);
+            this.stimLocation3CB.TabIndex = 2;
+            // 
+            // label28
+            // 
+            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(3, 84);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(82, 13);
+            this.label28.TabIndex = 0;
+            this.label28.Text = "Pair 4 Location";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // stimLocation4CB
+            // 
+            this.stimLocation4CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.stimLocation4CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.stimLocation4CB.FormattingEnabled = true;
+            this.stimLocation4CB.Location = new System.Drawing.Point(91, 81);
+            this.stimLocation4CB.Name = "stimLocation4CB";
+            this.stimLocation4CB.Size = new System.Drawing.Size(91, 21);
+            this.stimLocation4CB.TabIndex = 2;
+            // 
+            // label29
+            // 
+            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(3, 110);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(82, 13);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "Pair 5 Location";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // stimLocation5CB
+            // 
+            this.stimLocation5CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.stimLocation5CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.stimLocation5CB.FormattingEnabled = true;
+            this.stimLocation5CB.Location = new System.Drawing.Point(91, 107);
+            this.stimLocation5CB.Name = "stimLocation5CB";
+            this.stimLocation5CB.Size = new System.Drawing.Size(91, 21);
+            this.stimLocation5CB.TabIndex = 2;
+            // 
+            // label30
+            // 
+            this.label30.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(3, 137);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(82, 13);
+            this.label30.TabIndex = 0;
+            this.label30.Text = "Pair 6 Location";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // stimLocation6CB
+            // 
+            this.stimLocation6CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.stimLocation6CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.stimLocation6CB.FormattingEnabled = true;
+            this.stimLocation6CB.Location = new System.Drawing.Point(91, 133);
+            this.stimLocation6CB.Name = "stimLocation6CB";
+            this.stimLocation6CB.Size = new System.Drawing.Size(91, 21);
+            this.stimLocation6CB.TabIndex = 2;
             // 
             // tableLayoutPanel4
             // 
@@ -570,98 +739,6 @@
             this.simultaneousCB.Size = new System.Drawing.Size(90, 21);
             this.simultaneousCB.TabIndex = 2;
             // 
-            // label12
-            // 
-            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(3, 6);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(81, 13);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Pair 1 Location";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // stimLocation1CB
-            // 
-            this.stimLocation1CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.stimLocation1CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.stimLocation1CB.FormattingEnabled = true;
-            this.stimLocation1CB.Location = new System.Drawing.Point(90, 3);
-            this.stimLocation1CB.Name = "stimLocation1CB";
-            this.stimLocation1CB.Size = new System.Drawing.Size(92, 21);
-            this.stimLocation1CB.TabIndex = 2;
-            // 
-            // label26
-            // 
-            this.label26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(3, 32);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(81, 13);
-            this.label26.TabIndex = 0;
-            this.label26.Text = "Pair 2 Location";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label27
-            // 
-            this.label27.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(3, 58);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(81, 13);
-            this.label27.TabIndex = 0;
-            this.label27.Text = "Pair 3 Location";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label28
-            // 
-            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(3, 84);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(81, 13);
-            this.label28.TabIndex = 0;
-            this.label28.Text = "Pair 4 Location";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label29
-            // 
-            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(3, 110);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(81, 13);
-            this.label29.TabIndex = 0;
-            this.label29.Text = "Pair 5 Location";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label30
-            // 
-            this.label30.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(3, 137);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(81, 13);
-            this.label30.TabIndex = 0;
-            this.label30.Text = "Pair 6 Location";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // stimLocation2CB
-            // 
-            this.stimLocation2CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.stimLocation2CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.stimLocation2CB.FormattingEnabled = true;
-            this.stimLocation2CB.Location = new System.Drawing.Point(90, 29);
-            this.stimLocation2CB.Name = "stimLocation2CB";
-            this.stimLocation2CB.Size = new System.Drawing.Size(92, 21);
-            this.stimLocation2CB.TabIndex = 2;
-            // 
             // tabPage3
             // 
             this.tabPage3.AutoScroll = true;
@@ -676,6 +753,379 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Evaluation";
             this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.tableLayoutPanel9);
+            this.groupBox3.Location = new System.Drawing.Point(264, 319);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(207, 114);
+            this.groupBox3.TabIndex = 5;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Equivalence Locations";
+            // 
+            // tableLayoutPanel9
+            // 
+            this.tableLayoutPanel9.ColumnCount = 2;
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.56757F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.43243F));
+            this.tableLayoutPanel9.Controls.Add(this.label39, 0, 0);
+            this.tableLayoutPanel9.Controls.Add(this.equivLocation1CB, 1, 0);
+            this.tableLayoutPanel9.Controls.Add(this.label40, 0, 1);
+            this.tableLayoutPanel9.Controls.Add(this.equivLocation2CB, 1, 1);
+            this.tableLayoutPanel9.Controls.Add(this.label41, 0, 2);
+            this.tableLayoutPanel9.Controls.Add(this.equivLocation3CB, 1, 2);
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(11, 19);
+            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
+            this.tableLayoutPanel9.RowCount = 3;
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(185, 82);
+            this.tableLayoutPanel9.TabIndex = 4;
+            // 
+            // label39
+            // 
+            this.label39.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(3, 6);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(82, 13);
+            this.label39.TabIndex = 0;
+            this.label39.Text = "Pair 1 Location";
+            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // equivLocation1CB
+            // 
+            this.equivLocation1CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.equivLocation1CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.equivLocation1CB.FormattingEnabled = true;
+            this.equivLocation1CB.Location = new System.Drawing.Point(91, 3);
+            this.equivLocation1CB.Name = "equivLocation1CB";
+            this.equivLocation1CB.Size = new System.Drawing.Size(91, 21);
+            this.equivLocation1CB.TabIndex = 2;
+            // 
+            // label40
+            // 
+            this.label40.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(3, 32);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(82, 13);
+            this.label40.TabIndex = 0;
+            this.label40.Text = "Pair 2 Location";
+            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // equivLocation2CB
+            // 
+            this.equivLocation2CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.equivLocation2CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.equivLocation2CB.FormattingEnabled = true;
+            this.equivLocation2CB.Location = new System.Drawing.Point(91, 29);
+            this.equivLocation2CB.Name = "equivLocation2CB";
+            this.equivLocation2CB.Size = new System.Drawing.Size(91, 21);
+            this.equivLocation2CB.TabIndex = 2;
+            // 
+            // label41
+            // 
+            this.label41.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.Location = new System.Drawing.Point(3, 60);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(82, 13);
+            this.label41.TabIndex = 0;
+            this.label41.Text = "Pair 3 Location";
+            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // equivLocation3CB
+            // 
+            this.equivLocation3CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.equivLocation3CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.equivLocation3CB.FormattingEnabled = true;
+            this.equivLocation3CB.Location = new System.Drawing.Point(91, 56);
+            this.equivLocation3CB.Name = "equivLocation3CB";
+            this.equivLocation3CB.Size = new System.Drawing.Size(91, 21);
+            this.equivLocation3CB.TabIndex = 2;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.tableLayoutPanel8);
+            this.groupBox2.Location = new System.Drawing.Point(264, 199);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(207, 114);
+            this.groupBox2.TabIndex = 5;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Transitivity Locations";
+            // 
+            // tableLayoutPanel8
+            // 
+            this.tableLayoutPanel8.ColumnCount = 2;
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.56757F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.43243F));
+            this.tableLayoutPanel8.Controls.Add(this.label19, 0, 0);
+            this.tableLayoutPanel8.Controls.Add(this.transLocation1CB, 1, 0);
+            this.tableLayoutPanel8.Controls.Add(this.label37, 0, 1);
+            this.tableLayoutPanel8.Controls.Add(this.transLocation2CB, 1, 1);
+            this.tableLayoutPanel8.Controls.Add(this.label38, 0, 2);
+            this.tableLayoutPanel8.Controls.Add(this.transLocation3CB, 1, 2);
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(11, 19);
+            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
+            this.tableLayoutPanel8.RowCount = 3;
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(185, 82);
+            this.tableLayoutPanel8.TabIndex = 4;
+            // 
+            // label19
+            // 
+            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(3, 6);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(82, 13);
+            this.label19.TabIndex = 0;
+            this.label19.Text = "Pair 1 Location";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // transLocation1CB
+            // 
+            this.transLocation1CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.transLocation1CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.transLocation1CB.FormattingEnabled = true;
+            this.transLocation1CB.Location = new System.Drawing.Point(91, 3);
+            this.transLocation1CB.Name = "transLocation1CB";
+            this.transLocation1CB.Size = new System.Drawing.Size(91, 21);
+            this.transLocation1CB.TabIndex = 2;
+            // 
+            // label37
+            // 
+            this.label37.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(3, 32);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(82, 13);
+            this.label37.TabIndex = 0;
+            this.label37.Text = "Pair 2 Location";
+            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // transLocation2CB
+            // 
+            this.transLocation2CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.transLocation2CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.transLocation2CB.FormattingEnabled = true;
+            this.transLocation2CB.Location = new System.Drawing.Point(91, 29);
+            this.transLocation2CB.Name = "transLocation2CB";
+            this.transLocation2CB.Size = new System.Drawing.Size(91, 21);
+            this.transLocation2CB.TabIndex = 2;
+            // 
+            // label38
+            // 
+            this.label38.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(3, 60);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(82, 13);
+            this.label38.TabIndex = 0;
+            this.label38.Text = "Pair 3 Location";
+            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // transLocation3CB
+            // 
+            this.transLocation3CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.transLocation3CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.transLocation3CB.FormattingEnabled = true;
+            this.transLocation3CB.Location = new System.Drawing.Point(91, 56);
+            this.transLocation3CB.Name = "transLocation3CB";
+            this.transLocation3CB.Size = new System.Drawing.Size(91, 21);
+            this.transLocation3CB.TabIndex = 2;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.tableLayoutPanel7);
+            this.groupBox1.Location = new System.Drawing.Point(264, 6);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(207, 187);
+            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Symmetry Locations";
+            // 
+            // tableLayoutPanel7
+            // 
+            this.tableLayoutPanel7.ColumnCount = 2;
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.56757F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.43243F));
+            this.tableLayoutPanel7.Controls.Add(this.label31, 0, 0);
+            this.tableLayoutPanel7.Controls.Add(this.symLocation1CB, 1, 0);
+            this.tableLayoutPanel7.Controls.Add(this.label32, 0, 1);
+            this.tableLayoutPanel7.Controls.Add(this.symLocation2CB, 1, 1);
+            this.tableLayoutPanel7.Controls.Add(this.label33, 0, 2);
+            this.tableLayoutPanel7.Controls.Add(this.symLocation3CB, 1, 2);
+            this.tableLayoutPanel7.Controls.Add(this.label34, 0, 3);
+            this.tableLayoutPanel7.Controls.Add(this.symLocation4CB, 1, 3);
+            this.tableLayoutPanel7.Controls.Add(this.label35, 0, 4);
+            this.tableLayoutPanel7.Controls.Add(this.symLocation5CB, 1, 4);
+            this.tableLayoutPanel7.Controls.Add(this.label36, 0, 5);
+            this.tableLayoutPanel7.Controls.Add(this.symLocation6CB, 1, 5);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(11, 19);
+            this.tableLayoutPanel7.Name = "tableLayoutPanel7";
+            this.tableLayoutPanel7.RowCount = 6;
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(185, 158);
+            this.tableLayoutPanel7.TabIndex = 4;
+            // 
+            // label31
+            // 
+            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(3, 6);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(82, 13);
+            this.label31.TabIndex = 0;
+            this.label31.Text = "Pair 1 Location";
+            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // symLocation1CB
+            // 
+            this.symLocation1CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.symLocation1CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.symLocation1CB.FormattingEnabled = true;
+            this.symLocation1CB.Location = new System.Drawing.Point(91, 3);
+            this.symLocation1CB.Name = "symLocation1CB";
+            this.symLocation1CB.Size = new System.Drawing.Size(91, 21);
+            this.symLocation1CB.TabIndex = 2;
+            // 
+            // label32
+            // 
+            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(3, 32);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(82, 13);
+            this.label32.TabIndex = 0;
+            this.label32.Text = "Pair 2 Location";
+            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // symLocation2CB
+            // 
+            this.symLocation2CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.symLocation2CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.symLocation2CB.FormattingEnabled = true;
+            this.symLocation2CB.Location = new System.Drawing.Point(91, 29);
+            this.symLocation2CB.Name = "symLocation2CB";
+            this.symLocation2CB.Size = new System.Drawing.Size(91, 21);
+            this.symLocation2CB.TabIndex = 2;
+            // 
+            // label33
+            // 
+            this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(3, 58);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(82, 13);
+            this.label33.TabIndex = 0;
+            this.label33.Text = "Pair 3 Location";
+            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // symLocation3CB
+            // 
+            this.symLocation3CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.symLocation3CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.symLocation3CB.FormattingEnabled = true;
+            this.symLocation3CB.Location = new System.Drawing.Point(91, 55);
+            this.symLocation3CB.Name = "symLocation3CB";
+            this.symLocation3CB.Size = new System.Drawing.Size(91, 21);
+            this.symLocation3CB.TabIndex = 2;
+            // 
+            // label34
+            // 
+            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(3, 84);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(82, 13);
+            this.label34.TabIndex = 0;
+            this.label34.Text = "Pair 4 Location";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // symLocation4CB
+            // 
+            this.symLocation4CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.symLocation4CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.symLocation4CB.FormattingEnabled = true;
+            this.symLocation4CB.Location = new System.Drawing.Point(91, 81);
+            this.symLocation4CB.Name = "symLocation4CB";
+            this.symLocation4CB.Size = new System.Drawing.Size(91, 21);
+            this.symLocation4CB.TabIndex = 2;
+            // 
+            // label35
+            // 
+            this.label35.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(3, 110);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(82, 13);
+            this.label35.TabIndex = 0;
+            this.label35.Text = "Pair 5 Location";
+            this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // symLocation5CB
+            // 
+            this.symLocation5CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.symLocation5CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.symLocation5CB.FormattingEnabled = true;
+            this.symLocation5CB.Location = new System.Drawing.Point(91, 107);
+            this.symLocation5CB.Name = "symLocation5CB";
+            this.symLocation5CB.Size = new System.Drawing.Size(91, 21);
+            this.symLocation5CB.TabIndex = 2;
+            // 
+            // label36
+            // 
+            this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(3, 137);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(82, 13);
+            this.label36.TabIndex = 0;
+            this.label36.Text = "Pair 6 Location";
+            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // symLocation6CB
+            // 
+            this.symLocation6CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.symLocation6CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.symLocation6CB.FormattingEnabled = true;
+            this.symLocation6CB.Location = new System.Drawing.Point(91, 133);
+            this.symLocation6CB.Name = "symLocation6CB";
+            this.symLocation6CB.Size = new System.Drawing.Size(91, 21);
+            this.symLocation6CB.TabIndex = 2;
             // 
             // tableLayoutPanel5
             // 
@@ -887,18 +1337,6 @@
             0,
             0});
             // 
-            // label16
-            // 
-            this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(3, 136);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(138, 13);
-            this.label16.TabIndex = 0;
-            this.label16.Text = "YES Button Location";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // yesLocationCB
             // 
             this.yesLocationCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -1007,464 +1445,27 @@
             0,
             131072});
             // 
-            // startExpBtn
-            // 
-            this.startExpBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.startExpBtn.Location = new System.Drawing.Point(220, 102);
-            this.startExpBtn.Name = "startExpBtn";
-            this.startExpBtn.Size = new System.Drawing.Size(75, 32);
-            this.startExpBtn.TabIndex = 1;
-            this.startExpBtn.Text = "Start";
-            this.startExpBtn.UseVisualStyleBackColor = true;
-            this.startExpBtn.Click += new System.EventHandler(this.startExpBtn_Click);
-            // 
-            // stimLocation3CB
-            // 
-            this.stimLocation3CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.stimLocation3CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.stimLocation3CB.FormattingEnabled = true;
-            this.stimLocation3CB.Location = new System.Drawing.Point(90, 55);
-            this.stimLocation3CB.Name = "stimLocation3CB";
-            this.stimLocation3CB.Size = new System.Drawing.Size(92, 21);
-            this.stimLocation3CB.TabIndex = 2;
-            // 
-            // stimLocation4CB
-            // 
-            this.stimLocation4CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.stimLocation4CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.stimLocation4CB.FormattingEnabled = true;
-            this.stimLocation4CB.Location = new System.Drawing.Point(90, 81);
-            this.stimLocation4CB.Name = "stimLocation4CB";
-            this.stimLocation4CB.Size = new System.Drawing.Size(92, 21);
-            this.stimLocation4CB.TabIndex = 2;
-            // 
-            // stimLocation5CB
-            // 
-            this.stimLocation5CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.stimLocation5CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.stimLocation5CB.FormattingEnabled = true;
-            this.stimLocation5CB.Location = new System.Drawing.Point(90, 107);
-            this.stimLocation5CB.Name = "stimLocation5CB";
-            this.stimLocation5CB.Size = new System.Drawing.Size(92, 21);
-            this.stimLocation5CB.TabIndex = 2;
-            // 
-            // stimLocation6CB
-            // 
-            this.stimLocation6CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.stimLocation6CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.stimLocation6CB.FormattingEnabled = true;
-            this.stimLocation6CB.Location = new System.Drawing.Point(90, 133);
-            this.stimLocation6CB.Name = "stimLocation6CB";
-            this.stimLocation6CB.Size = new System.Drawing.Size(92, 21);
-            this.stimLocation6CB.TabIndex = 2;
-            // 
-            // tableLayoutPanel6
-            // 
-            this.tableLayoutPanel6.ColumnCount = 2;
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.56757F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.43243F));
-            this.tableLayoutPanel6.Controls.Add(this.label12, 0, 0);
-            this.tableLayoutPanel6.Controls.Add(this.stimLocation1CB, 1, 0);
-            this.tableLayoutPanel6.Controls.Add(this.label26, 0, 1);
-            this.tableLayoutPanel6.Controls.Add(this.stimLocation2CB, 1, 1);
-            this.tableLayoutPanel6.Controls.Add(this.label27, 0, 2);
-            this.tableLayoutPanel6.Controls.Add(this.stimLocation3CB, 1, 2);
-            this.tableLayoutPanel6.Controls.Add(this.label28, 0, 3);
-            this.tableLayoutPanel6.Controls.Add(this.stimLocation4CB, 1, 3);
-            this.tableLayoutPanel6.Controls.Add(this.label29, 0, 4);
-            this.tableLayoutPanel6.Controls.Add(this.stimLocation5CB, 1, 4);
-            this.tableLayoutPanel6.Controls.Add(this.label30, 0, 5);
-            this.tableLayoutPanel6.Controls.Add(this.stimLocation6CB, 1, 5);
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(264, 6);
-            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
-            this.tableLayoutPanel6.RowCount = 6;
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(185, 158);
-            this.tableLayoutPanel6.TabIndex = 2;
-            // 
-            // tableLayoutPanel7
-            // 
-            this.tableLayoutPanel7.ColumnCount = 2;
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.56757F));
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.43243F));
-            this.tableLayoutPanel7.Controls.Add(this.label31, 0, 0);
-            this.tableLayoutPanel7.Controls.Add(this.symLocation1CB, 1, 0);
-            this.tableLayoutPanel7.Controls.Add(this.label32, 0, 1);
-            this.tableLayoutPanel7.Controls.Add(this.symLocation2CB, 1, 1);
-            this.tableLayoutPanel7.Controls.Add(this.label33, 0, 2);
-            this.tableLayoutPanel7.Controls.Add(this.symLocation3CB, 1, 2);
-            this.tableLayoutPanel7.Controls.Add(this.label34, 0, 3);
-            this.tableLayoutPanel7.Controls.Add(this.symLocation4CB, 1, 3);
-            this.tableLayoutPanel7.Controls.Add(this.label35, 0, 4);
-            this.tableLayoutPanel7.Controls.Add(this.symLocation5CB, 1, 4);
-            this.tableLayoutPanel7.Controls.Add(this.label36, 0, 5);
-            this.tableLayoutPanel7.Controls.Add(this.symLocation6CB, 1, 5);
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(11, 19);
-            this.tableLayoutPanel7.Name = "tableLayoutPanel7";
-            this.tableLayoutPanel7.RowCount = 6;
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(185, 158);
-            this.tableLayoutPanel7.TabIndex = 4;
-            // 
-            // label31
-            // 
-            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(3, 6);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(81, 13);
-            this.label31.TabIndex = 0;
-            this.label31.Text = "Pair 1 Location";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // symLocation1CB
-            // 
-            this.symLocation1CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.symLocation1CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.symLocation1CB.FormattingEnabled = true;
-            this.symLocation1CB.Location = new System.Drawing.Point(90, 3);
-            this.symLocation1CB.Name = "symLocation1CB";
-            this.symLocation1CB.Size = new System.Drawing.Size(92, 21);
-            this.symLocation1CB.TabIndex = 2;
-            // 
-            // label32
-            // 
-            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(3, 32);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(81, 13);
-            this.label32.TabIndex = 0;
-            this.label32.Text = "Pair 2 Location";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // symLocation2CB
-            // 
-            this.symLocation2CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.symLocation2CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.symLocation2CB.FormattingEnabled = true;
-            this.symLocation2CB.Location = new System.Drawing.Point(90, 29);
-            this.symLocation2CB.Name = "symLocation2CB";
-            this.symLocation2CB.Size = new System.Drawing.Size(92, 21);
-            this.symLocation2CB.TabIndex = 2;
-            // 
-            // label33
-            // 
-            this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(3, 58);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(81, 13);
-            this.label33.TabIndex = 0;
-            this.label33.Text = "Pair 3 Location";
-            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // symLocation3CB
-            // 
-            this.symLocation3CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.symLocation3CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.symLocation3CB.FormattingEnabled = true;
-            this.symLocation3CB.Location = new System.Drawing.Point(90, 55);
-            this.symLocation3CB.Name = "symLocation3CB";
-            this.symLocation3CB.Size = new System.Drawing.Size(92, 21);
-            this.symLocation3CB.TabIndex = 2;
-            // 
-            // label34
-            // 
-            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(3, 84);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(81, 13);
-            this.label34.TabIndex = 0;
-            this.label34.Text = "Pair 4 Location";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // symLocation4CB
-            // 
-            this.symLocation4CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.symLocation4CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.symLocation4CB.FormattingEnabled = true;
-            this.symLocation4CB.Location = new System.Drawing.Point(90, 81);
-            this.symLocation4CB.Name = "symLocation4CB";
-            this.symLocation4CB.Size = new System.Drawing.Size(92, 21);
-            this.symLocation4CB.TabIndex = 2;
-            // 
-            // label35
-            // 
-            this.label35.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(3, 110);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(81, 13);
-            this.label35.TabIndex = 0;
-            this.label35.Text = "Pair 5 Location";
-            this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // symLocation5CB
-            // 
-            this.symLocation5CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.symLocation5CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.symLocation5CB.FormattingEnabled = true;
-            this.symLocation5CB.Location = new System.Drawing.Point(90, 107);
-            this.symLocation5CB.Name = "symLocation5CB";
-            this.symLocation5CB.Size = new System.Drawing.Size(92, 21);
-            this.symLocation5CB.TabIndex = 2;
-            // 
-            // label36
-            // 
-            this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(3, 137);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(81, 13);
-            this.label36.TabIndex = 0;
-            this.label36.Text = "Pair 6 Location";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // symLocation6CB
-            // 
-            this.symLocation6CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.symLocation6CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.symLocation6CB.FormattingEnabled = true;
-            this.symLocation6CB.Location = new System.Drawing.Point(90, 133);
-            this.symLocation6CB.Name = "symLocation6CB";
-            this.symLocation6CB.Size = new System.Drawing.Size(92, 21);
-            this.symLocation6CB.TabIndex = 2;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.tableLayoutPanel7);
-            this.groupBox1.Location = new System.Drawing.Point(264, 6);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(207, 187);
-            this.groupBox1.TabIndex = 5;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Symmetry Locations";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.tableLayoutPanel8);
-            this.groupBox2.Location = new System.Drawing.Point(264, 199);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(207, 114);
-            this.groupBox2.TabIndex = 5;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Transitivity Locations";
-            // 
-            // tableLayoutPanel8
-            // 
-            this.tableLayoutPanel8.ColumnCount = 2;
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.56757F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.43243F));
-            this.tableLayoutPanel8.Controls.Add(this.label19, 0, 0);
-            this.tableLayoutPanel8.Controls.Add(this.transLocation1CB, 1, 0);
-            this.tableLayoutPanel8.Controls.Add(this.label37, 0, 1);
-            this.tableLayoutPanel8.Controls.Add(this.transLocation2CB, 1, 1);
-            this.tableLayoutPanel8.Controls.Add(this.label38, 0, 2);
-            this.tableLayoutPanel8.Controls.Add(this.transLocation3CB, 1, 2);
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(11, 19);
-            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
-            this.tableLayoutPanel8.RowCount = 3;
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(185, 82);
-            this.tableLayoutPanel8.TabIndex = 4;
-            // 
-            // label19
-            // 
-            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(3, 6);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(82, 13);
-            this.label19.TabIndex = 0;
-            this.label19.Text = "Pair 1 Location";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // transLocation1CB
-            // 
-            this.transLocation1CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.transLocation1CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.transLocation1CB.FormattingEnabled = true;
-            this.transLocation1CB.Location = new System.Drawing.Point(91, 3);
-            this.transLocation1CB.Name = "transLocation1CB";
-            this.transLocation1CB.Size = new System.Drawing.Size(91, 21);
-            this.transLocation1CB.TabIndex = 2;
-            // 
-            // label37
-            // 
-            this.label37.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(3, 32);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(82, 13);
-            this.label37.TabIndex = 0;
-            this.label37.Text = "Pair 2 Location";
-            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // transLocation2CB
-            // 
-            this.transLocation2CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.transLocation2CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.transLocation2CB.FormattingEnabled = true;
-            this.transLocation2CB.Location = new System.Drawing.Point(91, 29);
-            this.transLocation2CB.Name = "transLocation2CB";
-            this.transLocation2CB.Size = new System.Drawing.Size(91, 21);
-            this.transLocation2CB.TabIndex = 2;
-            // 
-            // label38
-            // 
-            this.label38.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(3, 60);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(82, 13);
-            this.label38.TabIndex = 0;
-            this.label38.Text = "Pair 3 Location";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // transLocation3CB
-            // 
-            this.transLocation3CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.transLocation3CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.transLocation3CB.FormattingEnabled = true;
-            this.transLocation3CB.Location = new System.Drawing.Point(91, 56);
-            this.transLocation3CB.Name = "transLocation3CB";
-            this.transLocation3CB.Size = new System.Drawing.Size(91, 21);
-            this.transLocation3CB.TabIndex = 2;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.tableLayoutPanel9);
-            this.groupBox3.Location = new System.Drawing.Point(264, 319);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(207, 114);
-            this.groupBox3.TabIndex = 5;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Equivalence Locations";
-            // 
-            // tableLayoutPanel9
-            // 
-            this.tableLayoutPanel9.ColumnCount = 2;
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.56757F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.43243F));
-            this.tableLayoutPanel9.Controls.Add(this.label39, 0, 0);
-            this.tableLayoutPanel9.Controls.Add(this.equivLocation1CB, 1, 0);
-            this.tableLayoutPanel9.Controls.Add(this.label40, 0, 1);
-            this.tableLayoutPanel9.Controls.Add(this.equivLocation2CB, 1, 1);
-            this.tableLayoutPanel9.Controls.Add(this.label41, 0, 2);
-            this.tableLayoutPanel9.Controls.Add(this.equivLocation3CB, 1, 2);
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(11, 19);
-            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-            this.tableLayoutPanel9.RowCount = 3;
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(185, 82);
-            this.tableLayoutPanel9.TabIndex = 4;
-            // 
-            // label39
-            // 
-            this.label39.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(3, 6);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(82, 13);
-            this.label39.TabIndex = 0;
-            this.label39.Text = "Pair 1 Location";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // equivLocation1CB
-            // 
-            this.equivLocation1CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.equivLocation1CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.equivLocation1CB.FormattingEnabled = true;
-            this.equivLocation1CB.Location = new System.Drawing.Point(91, 3);
-            this.equivLocation1CB.Name = "equivLocation1CB";
-            this.equivLocation1CB.Size = new System.Drawing.Size(91, 21);
-            this.equivLocation1CB.TabIndex = 2;
-            // 
-            // label40
-            // 
-            this.label40.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(3, 32);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(82, 13);
-            this.label40.TabIndex = 0;
-            this.label40.Text = "Pair 2 Location";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // equivLocation2CB
-            // 
-            this.equivLocation2CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.equivLocation2CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.equivLocation2CB.FormattingEnabled = true;
-            this.equivLocation2CB.Location = new System.Drawing.Point(91, 29);
-            this.equivLocation2CB.Name = "equivLocation2CB";
-            this.equivLocation2CB.Size = new System.Drawing.Size(91, 21);
-            this.equivLocation2CB.TabIndex = 2;
-            // 
-            // label41
-            // 
-            this.label41.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(3, 60);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(82, 13);
-            this.label41.TabIndex = 0;
-            this.label41.Text = "Pair 3 Location";
-            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // equivLocation3CB
-            // 
-            this.equivLocation3CB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.equivLocation3CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.equivLocation3CB.FormattingEnabled = true;
-            this.equivLocation3CB.Location = new System.Drawing.Point(91, 56);
-            this.equivLocation3CB.Name = "equivLocation3CB";
-            this.equivLocation3CB.Size = new System.Drawing.Size(91, 21);
-            this.equivLocation3CB.TabIndex = 2;
+            // label16
+            // 
+            this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(3, 136);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(138, 13);
+            this.label16.TabIndex = 0;
+            this.label16.Text = "YES Button Location";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.tableLayoutPanel2);
+            this.panel1.Controls.Add(this.startExpBtn);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 367);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(508, 142);
+            this.panel1.TabIndex = 1;
             // 
             // tableLayoutPanel2
             // 
@@ -1493,7 +1494,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 13);
+            this.label1.Size = new System.Drawing.Size(72, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Version";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1501,9 +1502,9 @@
             // participantIDTB
             // 
             this.participantIDTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.participantIDTB.Location = new System.Drawing.Point(80, 56);
+            this.participantIDTB.Location = new System.Drawing.Point(81, 56);
             this.participantIDTB.Name = "participantIDTB";
-            this.participantIDTB.Size = new System.Drawing.Size(153, 20);
+            this.participantIDTB.Size = new System.Drawing.Size(152, 20);
             this.participantIDTB.TabIndex = 1;
             // 
             // label2
@@ -1513,7 +1514,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(3, 32);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 13);
+            this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Date";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1521,19 +1522,19 @@
             // dateTB
             // 
             this.dateTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.dateTB.Location = new System.Drawing.Point(80, 29);
+            this.dateTB.Location = new System.Drawing.Point(81, 29);
             this.dateTB.Name = "dateTB";
             this.dateTB.ReadOnly = true;
-            this.dateTB.Size = new System.Drawing.Size(153, 20);
+            this.dateTB.Size = new System.Drawing.Size(152, 20);
             this.dateTB.TabIndex = 1;
             // 
             // versionTB
             // 
             this.versionTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.versionTB.Location = new System.Drawing.Point(80, 3);
+            this.versionTB.Location = new System.Drawing.Point(81, 3);
             this.versionTB.Name = "versionTB";
             this.versionTB.ReadOnly = true;
-            this.versionTB.Size = new System.Drawing.Size(153, 20);
+            this.versionTB.Size = new System.Drawing.Size(152, 20);
             this.versionTB.TabIndex = 1;
             this.versionTB.Text = "1.0.0";
             // 
@@ -1544,25 +1545,28 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(3, 59);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 13);
+            this.label3.Size = new System.Drawing.Size(72, 13);
             this.label3.TabIndex = 0;
             this.label3.Text = "Participant ID";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // panel1
+            // startExpBtn
             // 
-            this.panel1.Controls.Add(this.tableLayoutPanel2);
-            this.panel1.Controls.Add(this.startExpBtn);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 367);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(508, 142);
-            this.panel1.TabIndex = 1;
+            this.startExpBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.startExpBtn.BackColor = System.Drawing.SystemColors.Control;
+            this.startExpBtn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.startExpBtn.Location = new System.Drawing.Point(220, 102);
+            this.startExpBtn.Name = "startExpBtn";
+            this.startExpBtn.Size = new System.Drawing.Size(75, 32);
+            this.startExpBtn.TabIndex = 1;
+            this.startExpBtn.Text = "Start";
+            this.startExpBtn.UseVisualStyleBackColor = false;
+            this.startExpBtn.Click += new System.EventHandler(this.startExpBtn_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(514, 512);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -1580,6 +1584,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.yesTrialsPerPairUD)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.noTrialsPerPairUD)).EndInit();
             this.tabPage2.ResumeLayout(false);
+            this.tableLayoutPanel6.ResumeLayout(false);
+            this.tableLayoutPanel6.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.withinPairDelayUD)).EndInit();
@@ -1588,6 +1594,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.secondStimDurationUD)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stimTrialsPerPairUD)).EndInit();
             this.tabPage3.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.tableLayoutPanel9.ResumeLayout(false);
+            this.tableLayoutPanel9.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.tableLayoutPanel8.ResumeLayout(false);
+            this.tableLayoutPanel8.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.tableLayoutPanel7.ResumeLayout(false);
+            this.tableLayoutPanel7.PerformLayout();
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.withinPairDelayEvalUD)).EndInit();
@@ -1595,20 +1610,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.secondStimDurationEvalUD)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.firstStimDurationEvalUD)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.betweenPairDelayEvalUD)).EndInit();
-            this.tableLayoutPanel6.ResumeLayout(false);
-            this.tableLayoutPanel6.PerformLayout();
-            this.tableLayoutPanel7.ResumeLayout(false);
-            this.tableLayoutPanel7.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.tableLayoutPanel8.ResumeLayout(false);
-            this.tableLayoutPanel8.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.tableLayoutPanel9.ResumeLayout(false);
-            this.tableLayoutPanel9.PerformLayout();
+            this.panel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

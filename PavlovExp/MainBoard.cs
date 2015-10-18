@@ -16,6 +16,11 @@ namespace PavlovExp
 {
     public partial class MainBoard : Form
     {
+        // Mac OS X compatibility
+        //----------------------------
+        // Disable Autosize for the introduction labels
+        // Change button format to "Popup"
+
         public int CurrPhase;
         public Experiment CurrExp;
         public List<Stimulus> StimList;
@@ -62,8 +67,8 @@ namespace PavlovExp
         private void MainBoard_Load(object sender, EventArgs e)
         {
             // make this fullscreen
-            this.TopMost = true;
-            this.FormBorderStyle = FormBorderStyle.None;
+            //this.TopMost = true;
+            //this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
 
             correctLB.Location = new Point(Center.X - correctLB.Width / 2, Center.Y);
@@ -78,8 +83,9 @@ namespace PavlovExp
                if (setupPreTraining())
                 {
                     mainPanel.BackColor = Color.White;
-                    introPanel.Visible = true;
-                    introLB.Left = this.Width / 2 - introLB.Width / 2;
+                    introPanel.Visible = true;                  
+                    introPTLB.Location = new Point(Center.X - introPTLB.Width / 2, Center.Y - introPTLB.Height / 2);
+                    introPTLB.Visible = true;
                 }
             }
             catch (Exception e)
@@ -97,7 +103,8 @@ namespace PavlovExp
                 {
                     mainPanel.BackColor = Color.White;
                     introPanel.Visible = true;
-                    introLB.Left = this.Width / 2 - introLB.Width / 2;
+                    introPTEvalLB.Location = new Point(Center.X - introPTEvalLB.Width / 2, Center.Y - introPTEvalLB.Height / 2);
+                    introPTEvalLB.Visible = true;
                 }
             }
             catch (Exception e)
@@ -305,7 +312,8 @@ namespace PavlovExp
                 {
                     mainPanel.BackColor = Color.White;
                     introPanel.Visible = true;
-                    introLB.Left = this.Width / 2 - introLB.Width / 2;
+                    introTrainingLB.Location = new Point(Center.X - introTrainingLB.Width / 2, Center.Y - introTrainingLB.Height / 2);
+                    introTrainingLB.Visible = true;
                 }
             }
             catch (Exception e)
@@ -323,7 +331,8 @@ namespace PavlovExp
                 {
                     mainPanel.BackColor = Color.White;
                     introPanel.Visible = true;
-                    introLB.Left = this.Width / 2 - introLB.Width / 2;
+                    introEvalLB.Location = new Point(Center.X - introEvalLB.Width / 2, Center.Y - introEvalLB.Height / 2);
+                    introEvalLB.Visible = true;
                 }
             }
             catch (Exception e)
@@ -373,7 +382,12 @@ namespace PavlovExp
                 //withinPairTimer.Interval = 100;
                 //betweenPairTimer.Interval = 100;
 
-                introLB.Text = Constants.IntroPretraining;
+                //introPTLB.Text = Constants.IntroPretraining;
+
+                introPTLB.Visible = false;
+                introPTEvalLB.Visible = false;
+                introTrainingLB.Visible = false;
+                introEvalLB.Visible = false;
 
                 labelA.Visible = false;
                 labelB.Visible = false;
@@ -441,7 +455,11 @@ namespace PavlovExp
                 withinPairTimer.Interval = 1000;
                 betweenPairTimer.Interval = 3000;
 
-                introLB.Text = Constants.IntroPretrainingEval;
+                //introPTLB.Text = Constants.IntroPretrainingEval;
+                introPTLB.Visible = false;
+                introPTEvalLB.Visible = false;
+                introTrainingLB.Visible = false;
+                introEvalLB.Visible = false;
 
                 labelA.Visible = false;
                 labelB.Visible = false;
@@ -492,7 +510,12 @@ namespace PavlovExp
                 withinPairTimer.Interval = (int)(CurrExp.TrainingWithinPairDelay * 1000);
                 betweenPairTimer.Interval = (int)(CurrExp.TrainingBetweenPairDelay * 1000);
 
-                introLB.Text = Constants.IntroTraining;
+                //introPTLB.Text = Constants.IntroTraining;
+
+                introPTLB.Visible = false;
+                introPTEvalLB.Visible = false;
+                introTrainingLB.Visible = false;
+                introEvalLB.Visible = false;
 
                 labelA.Visible = false;
                 labelB.Visible = false;
@@ -590,7 +613,11 @@ namespace PavlovExp
                 withinPairTimer.Interval = (int)(CurrExp.EvalWithinPairDelay * 1000);
                 betweenPairTimer.Interval = (int)(CurrExp.EvalBetweenPairDelay * 1000);
 
-                introLB.Text = Constants.IntroEvaluation;
+                //introPTLB.Text = Constants.IntroEvaluation;
+                introPTLB.Visible = false;
+                introPTEvalLB.Visible = false;
+                introTrainingLB.Visible = false;
+                introEvalLB.Visible = false;
 
                 labelA.Visible = false;
                 labelB.Visible = false;
