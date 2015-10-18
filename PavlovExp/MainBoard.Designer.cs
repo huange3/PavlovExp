@@ -29,14 +29,17 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainBoard));
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.controlPanel = new System.Windows.Forms.Panel();
             this.introPanel = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.startBtn = new System.Windows.Forms.Button();
             this.introLB = new System.Windows.Forms.Label();
-            this.controlPanel = new System.Windows.Forms.Panel();
             this.labelA = new System.Windows.Forms.Label();
             this.noBtn = new System.Windows.Forms.Button();
+            this.incorrectLB = new System.Windows.Forms.Label();
+            this.correctLB = new System.Windows.Forms.Label();
             this.labelB = new System.Windows.Forms.Label();
             this.yesBtn = new System.Windows.Forms.Button();
             this.nextBtn = new System.Windows.Forms.Button();
@@ -44,13 +47,11 @@
             this.secondStimTimer = new System.Windows.Forms.Timer(this.components);
             this.withinPairTimer = new System.Windows.Forms.Timer(this.components);
             this.betweenPairTimer = new System.Windows.Forms.Timer(this.components);
-            this.correctLB = new System.Windows.Forms.Label();
-            this.incorrectLB = new System.Windows.Forms.Label();
             this.rewardTimer = new System.Windows.Forms.Timer(this.components);
             this.mainPanel.SuspendLayout();
+            this.controlPanel.SuspendLayout();
             this.introPanel.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.controlPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainPanel
@@ -62,6 +63,23 @@
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(712, 416);
             this.mainPanel.TabIndex = 0;
+            // 
+            // controlPanel
+            // 
+            this.controlPanel.BackColor = System.Drawing.Color.Transparent;
+            this.controlPanel.Controls.Add(this.introPanel);
+            this.controlPanel.Controls.Add(this.labelA);
+            this.controlPanel.Controls.Add(this.noBtn);
+            this.controlPanel.Controls.Add(this.incorrectLB);
+            this.controlPanel.Controls.Add(this.correctLB);
+            this.controlPanel.Controls.Add(this.labelB);
+            this.controlPanel.Controls.Add(this.yesBtn);
+            this.controlPanel.Controls.Add(this.nextBtn);
+            this.controlPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.controlPanel.Location = new System.Drawing.Point(0, 0);
+            this.controlPanel.Name = "controlPanel";
+            this.controlPanel.Size = new System.Drawing.Size(712, 416);
+            this.controlPanel.TabIndex = 2;
             // 
             // introPanel
             // 
@@ -108,23 +126,6 @@
             this.introLB.TabIndex = 0;
             this.introLB.Text = "Introduction text";
             // 
-            // controlPanel
-            // 
-            this.controlPanel.BackColor = System.Drawing.Color.Transparent;
-            this.controlPanel.Controls.Add(this.introPanel);
-            this.controlPanel.Controls.Add(this.labelA);
-            this.controlPanel.Controls.Add(this.noBtn);
-            this.controlPanel.Controls.Add(this.incorrectLB);
-            this.controlPanel.Controls.Add(this.correctLB);
-            this.controlPanel.Controls.Add(this.labelB);
-            this.controlPanel.Controls.Add(this.yesBtn);
-            this.controlPanel.Controls.Add(this.nextBtn);
-            this.controlPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.controlPanel.Location = new System.Drawing.Point(0, 0);
-            this.controlPanel.Name = "controlPanel";
-            this.controlPanel.Size = new System.Drawing.Size(712, 416);
-            this.controlPanel.TabIndex = 2;
-            // 
             // labelA
             // 
             this.labelA.AutoSize = true;
@@ -140,6 +141,7 @@
             // 
             this.noBtn.BackColor = System.Drawing.Color.Transparent;
             this.noBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.noBtn.ForeColor = System.Drawing.Color.Red;
             this.noBtn.Location = new System.Drawing.Point(24, 290);
             this.noBtn.Name = "noBtn";
             this.noBtn.Size = new System.Drawing.Size(150, 60);
@@ -148,6 +150,30 @@
             this.noBtn.UseVisualStyleBackColor = false;
             this.noBtn.Visible = false;
             this.noBtn.Click += new System.EventHandler(this.noBtn_Click);
+            // 
+            // incorrectLB
+            // 
+            this.incorrectLB.AutoSize = true;
+            this.incorrectLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.incorrectLB.ForeColor = System.Drawing.Color.Red;
+            this.incorrectLB.Location = new System.Drawing.Point(272, 76);
+            this.incorrectLB.Name = "incorrectLB";
+            this.incorrectLB.Size = new System.Drawing.Size(310, 55);
+            this.incorrectLB.TabIndex = 0;
+            this.incorrectLB.Text = "INCORRECT";
+            this.incorrectLB.Visible = false;
+            // 
+            // correctLB
+            // 
+            this.correctLB.AutoSize = true;
+            this.correctLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.correctLB.ForeColor = System.Drawing.Color.Green;
+            this.correctLB.Location = new System.Drawing.Point(272, 9);
+            this.correctLB.Name = "correctLB";
+            this.correctLB.Size = new System.Drawing.Size(262, 55);
+            this.correctLB.TabIndex = 0;
+            this.correctLB.Text = "CORRECT";
+            this.correctLB.Visible = false;
             // 
             // labelB
             // 
@@ -164,6 +190,7 @@
             // 
             this.yesBtn.BackColor = System.Drawing.Color.Transparent;
             this.yesBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yesBtn.ForeColor = System.Drawing.Color.Green;
             this.yesBtn.Location = new System.Drawing.Point(24, 224);
             this.yesBtn.Name = "yesBtn";
             this.yesBtn.Size = new System.Drawing.Size(150, 60);
@@ -202,30 +229,6 @@
             // 
             this.betweenPairTimer.Tick += new System.EventHandler(this.betweenPairTimer_Tick);
             // 
-            // correctLB
-            // 
-            this.correctLB.AutoSize = true;
-            this.correctLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.correctLB.ForeColor = System.Drawing.Color.Green;
-            this.correctLB.Location = new System.Drawing.Point(272, 9);
-            this.correctLB.Name = "correctLB";
-            this.correctLB.Size = new System.Drawing.Size(262, 55);
-            this.correctLB.TabIndex = 0;
-            this.correctLB.Text = "CORRECT";
-            this.correctLB.Visible = false;
-            // 
-            // incorrectLB
-            // 
-            this.incorrectLB.AutoSize = true;
-            this.incorrectLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.incorrectLB.ForeColor = System.Drawing.Color.Red;
-            this.incorrectLB.Location = new System.Drawing.Point(272, 76);
-            this.incorrectLB.Name = "incorrectLB";
-            this.incorrectLB.Size = new System.Drawing.Size(310, 55);
-            this.incorrectLB.TabIndex = 0;
-            this.incorrectLB.Text = "INCORRECT";
-            this.incorrectLB.Visible = false;
-            // 
             // rewardTimer
             // 
             this.rewardTimer.Interval = 2000;
@@ -237,18 +240,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(712, 416);
             this.Controls.Add(this.mainPanel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.Name = "MainBoard";
-            this.Text = "Experiment Screen";
+            this.Text = "Experiment Board";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainBoard_FormClosed);
             this.Load += new System.EventHandler(this.MainBoard_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainBoard_KeyDown);
             this.mainPanel.ResumeLayout(false);
+            this.controlPanel.ResumeLayout(false);
+            this.controlPanel.PerformLayout();
             this.introPanel.ResumeLayout(false);
             this.introPanel.PerformLayout();
             this.panel1.ResumeLayout(false);
-            this.controlPanel.ResumeLayout(false);
-            this.controlPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }

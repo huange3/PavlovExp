@@ -13,6 +13,7 @@ namespace PavlovExp
         public decimal Latency { get; set; }
         public int UserAnswer { get; set; }
         public int IsCorrect { get; set; }
+        public int Test { get; set; }
 
         public Trial(int p)
         {

@@ -19,6 +19,15 @@ namespace PavlovExp.Shared
             + "If you had just seen a pair of words that go together indicate this by selecting the \"YES\" button. Use the \"NO\" button for those pairs that you see that are not meant to go together. "
             + "\n\nClick the \"START\" button to begin.";
 
+        public static string IntroTraining = "You are now ready for the next stage of the study. This stage is similar to the previous with one small change – the words you will see are not real words. "
+            + "Your task will be to watch and see which nonsense words go together. Following that you will be asked to determine if the pairs of words you see \"go-together\" or not. "
+            + "You may or may not be told if you are making the correct selection, however the program is recording your performance and the better you do the sooner the study will be over. "
+            + "\n\nClick the \"START\" button when you are ready.";
+
+        public static string IntroEvaluation = "You will now be asked to determine if the pairs of words you see “go-together” or not."
+            + "You may or may not be told if you are making the correct selection, however the program is recording your performance and the better you do the sooner the study will be over."
+            + "\n\nClick the \"START\" button when you are ready.";
+
         public enum Phases
         {
             Pretraining = 1,
@@ -33,7 +42,8 @@ namespace PavlovExp.Shared
             TopLeft = 2,
             TopRight = 3,
             BottomLeft = 4,
-            BottomRight = 5
+            BottomRight = 5,
+            Random = 6
         }
 
         public enum Options
@@ -46,6 +56,13 @@ namespace PavlovExp.Shared
         {
             Sequential = 1,
             Mixed = 2
+        }
+
+        public enum Tests
+        {
+            Symmetry = 1,
+            Transitivity = 2,
+            Equivalence = 3
         }
     }
 }
